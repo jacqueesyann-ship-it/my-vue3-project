@@ -1,0 +1,73 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "DaLe Login",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "DaLe",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/article/article",
+			"style": {
+				"navigationBarTitleText": "Article",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/completion/completion",
+			"style": {
+				"navigationBarTitleText": "Completion",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/dale-card/dale-card",
+			"style": {
+				"navigationBarTitleText": "DaLe Card",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "Settings",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#B3B3B3",
+		"selectedColor": "#1ED760",
+		"backgroundColor": "#181818",
+		"borderStyle": "black",
+		"height": "88px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "Reading"
+			},
+			{
+				"pagePath": "pages/dale-card/dale-card",
+				"text": "DaLe Card"
+			},
+			{
+				"pagePath": "pages/settings/settings",
+				"text": "Settings"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "DaLe",
+		"navigationBarBackgroundColor": "#1ED760",
+		"backgroundColor": "#181818"
+	}
+}
